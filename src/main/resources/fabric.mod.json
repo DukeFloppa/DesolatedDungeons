@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "desolateddungeons",
+	"version": "${version}",
+	"name": "Desolated Dungeons",
+	"description": ":3",
+	"authors": [
+		"DukeFloppa"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/DukeFloppa/DesolatedDungeons"
+	},
+	"license": "LGPL-3.0-or-later",
+	"icon": "assets/desolateddungeons/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"dukefloppa.desolateddungeons.DesolatedDungeons"
+		],
+		"client": [
+			"dukefloppa.desolateddungeons.DesolatedDungeonsClient"
+		],
+		"fabric-datagen": [
+			"dukefloppa.desolateddungeons.DesolatedDungeonsDataGenerator"
+		]
+	},
+	"mixins": [
+		"desolateddungeons.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
