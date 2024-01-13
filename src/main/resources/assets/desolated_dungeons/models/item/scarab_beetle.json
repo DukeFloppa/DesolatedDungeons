@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "desolated_dungeons:item/scarab_beetle"
+  }
+}
