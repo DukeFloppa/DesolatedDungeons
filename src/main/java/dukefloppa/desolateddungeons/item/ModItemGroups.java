@@ -21,6 +21,7 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.TEAL_WOOL);
                         entries.add(ModBlocks.SALMON_WOOL);
+                        entries.add(ModBlocks.ALIEN_DIRT);
                     }))
                     .build());
 
