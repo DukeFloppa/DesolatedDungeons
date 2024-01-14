@@ -1,33 +1,35 @@
 {
   "criteria": {
-    "got_scarab_beetle": {
+    "root": {
       "conditions": {
-        "player": [
+        "items": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "location": {
-                "structure": "minecraft:desert_pyramid"
-              }
-            }
+            "items": [
+              "minecraft:crafting_table"
+            ]
           }
         ]
       },
-      "trigger": "minecraft:location"
+      "trigger": "minecraft:inventory_changed"
     }
   },
   "display": {
+    "announce_to_chat": false,
     "background": "minecraft:textures/block/sand.png",
-    "description": "Discover secrets from ancient times",
-    "icon": {
-      "item": "desolated_dungeons:scarab_beetle"
+    "description": {
+      "translate": "advancements.desolated_dungeons.root.description"
     },
-    "title": "Sandswept Ruins"
+    "icon": {
+      "item": "desolated_dungeons:salmon_wool"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.desolated_dungeons.root.title"
+    }
   },
   "requirements": [
     [
-      "got_scarab_beetle"
+      "root"
     ]
   ],
   "sends_telemetry_event": true
