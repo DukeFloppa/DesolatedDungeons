@@ -12,7 +12,7 @@
 		"sources": "https://github.com/DukeFloppa/DesolatedDungeons"
 	},
 	"license": "LGPL-3.0-or-later",
-	"icon": "assets/desolateddungeons/icon.png",
+	"icon": "assets/desolated_dungeons/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
