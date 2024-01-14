@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item SCARAB_BEETLE = registerItem("scarab_beetle", new Item(new FabricItemSettings()));
+    public static final Item ANKH_TOTEM = registerItem("ankh_totem", new Item(new FabricItemSettings()));
 
     public static void registerModItems() {
         DesolatedDungeons.LOGGER.info("Registering Mod Items for " + DesolatedDungeons.MOD_ID);

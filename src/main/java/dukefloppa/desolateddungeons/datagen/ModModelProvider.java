@@ -24,5 +24,6 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.SCARAB_BEETLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ANKH_TOTEM, Models.GENERATED);
     }
 }
