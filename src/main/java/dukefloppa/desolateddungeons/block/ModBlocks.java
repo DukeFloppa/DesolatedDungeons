@@ -2,7 +2,6 @@ package dukefloppa.desolateddungeons.block;
 
 import dukefloppa.desolateddungeons.DesolatedDungeons;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -15,7 +14,6 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
-import org.lwjgl.openal.AL;
 
 //use ModBlocks class for adding items
 public class ModBlocks {
@@ -25,6 +23,8 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.WHITE_WOOL)));
     public static final Block ALIEN_DIRT = registerBlock("alien_dirt",
             new Block(FabricBlockSettings.copyOf(Blocks.DIRT).sounds(BlockSoundGroup.SLIME)));
+    public static final Block SANDSTONE_BRICKS = registerBlock("sandstone_bricks",
+            new Block(FabricBlockSettings.copyOf(Blocks.MUD_BRICKS).sounds(BlockSoundGroup.STONE)));
 
     public static void registerModBlocks() {
         DesolatedDungeons.LOGGER.info("Registering Mod Blocks for " + DesolatedDungeons.MOD_ID);

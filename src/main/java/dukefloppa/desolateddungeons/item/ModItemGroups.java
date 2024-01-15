@@ -19,10 +19,18 @@ public class ModItemGroups {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.SCARAB_BEETLE);
                         entries.add(ModItems.ANKH_TOTEM);
+                        entries.add(ModItems.KHOPESH_HANDLE);
+                        entries.add(ModItems.WOODEN_KHOPESH);
+                        entries.add(ModItems.STONE_KHOPESH);
+                        entries.add(ModItems.IRON_KHOPESH);
+                        entries.add(ModItems.GOLDEN_KHOPESH);
+                        entries.add(ModItems.DIAMOND_KHOPESH);
+                        entries.add(ModItems.NETHERITE_KHOPESH);
 
                         entries.add(ModBlocks.TEAL_WOOL);
                         entries.add(ModBlocks.SALMON_WOOL);
                         entries.add(ModBlocks.ALIEN_DIRT);
+                        entries.add(ModBlocks.SANDSTONE_BRICKS);
                     }))
                     .build());
 

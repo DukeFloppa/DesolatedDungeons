@@ -19,11 +19,19 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TEAL_WOOL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALMON_WOOL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALIEN_DIRT);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SANDSTONE_BRICKS);
     }
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
         itemModelGenerator.register(ModItems.SCARAB_BEETLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.ANKH_TOTEM, Models.GENERATED);
+        itemModelGenerator.register(ModItems.KHOPESH_HANDLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.WOODEN_KHOPESH, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.STONE_KHOPESH, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.IRON_KHOPESH, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.GOLDEN_KHOPESH, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.DIAMOND_KHOPESH, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.NETHERITE_KHOPESH, Models.HANDHELD);
     }
 }

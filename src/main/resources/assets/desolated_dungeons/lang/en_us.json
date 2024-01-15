@@ -8,8 +8,16 @@
 
   "item.desolated_dungeons.scarab_beetle": "Scarab Beetle",
   "item.desolated_dungeons.ankh_totem": "Ankh Totem",
+  "item.desolated_dungeons.khopesh_handle": "Khopesh Handle",
+  "item.desolated_dungeons.wooden_khopesh": "Wooden Khopesh",
+  "item.desolated_dungeons.stone_khopesh": "Stone Khopesh",
+  "item.desolated_dungeons.iron_khopesh": "Iron Khopesh",
+  "item.desolated_dungeons.golden_khopesh": "Golden Khopesh",
+  "item.desolated_dungeons.diamond_khopesh": "Diamond Khopesh",
+  "item.desolated_dungeons.netherite_khopesh": "El Khopesh de la Netherita",
 
   "block.desolated_dungeons.teal_wool": "Teal Wool",
   "block.desolated_dungeons.salmon_wool": "Salmon Wool",
-  "block.desolated_dungeons.alien_dirt": "Alien Dirt"
+  "block.desolated_dungeons.alien_dirt": "Alien Dirt",
+  "block.desolated_dungeons.sandstone_bricks": "Sandstone Bricks"
 }
