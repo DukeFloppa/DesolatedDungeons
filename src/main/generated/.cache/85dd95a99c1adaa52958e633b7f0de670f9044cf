@@ -1,4 +1,4 @@
-// 1.20.4	2024-01-15T21:52:19.9660676	Desolated Dungeons/Recipes
+// 1.20.4	2024-01-16T18:32:28.740874	Desolated Dungeons/Recipes
 90a314cd15739b46a1cbf3d7f423ad05ab079cba data\desolated_dungeons\advancements\recipes\combat\khopesh_handle.json
 ed68eef608f02214af61e16380769f0e330a1a82 data\desolated_dungeons\recipes\netherite_khopesh.json
 a701f830dd58ef552d31f614357a21c1bf56fb80 data\desolated_dungeons\advancements\recipes\combat\stone_khopesh.json
@@ -11,5 +11,5 @@ cdb2ed8a969b212b270354bcb157aef2eaaba9c5 data\desolated_dungeons\recipes\khopesh
 7c44be04f67edd5e4c39b670da376bf0ba224812 data\desolated_dungeons\recipes\golden_khopesh.json
 d8f4693b689b4a00ef2845598d7bad03393c3cfd data\desolated_dungeons\advancements\recipes\combat\iron_khopesh.json
 3f9fd62c9f6db571d22519d98138a12e841cee64 data\desolated_dungeons\advancements\recipes\combat\diamond_khopesh.json
-f2a0f545e5d2d12e84cef41e049ae8d75a319616 data\desolated_dungeons\advancements\recipes\combat\netherite_khopesh.json
+05bbb95ccb7ee6ea85419606df42821c2f3738a3 data\desolated_dungeons\advancements\recipes\combat\netherite_khopesh.json
 6bcd420e5653ff502088cd0ed87e8f8f0985301c data\desolated_dungeons\advancements\recipes\combat\golden_khopesh.json

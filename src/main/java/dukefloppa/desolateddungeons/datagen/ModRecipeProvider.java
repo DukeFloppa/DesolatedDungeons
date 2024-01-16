@@ -10,7 +10,6 @@ import net.minecraft.item.Items;
 import net.minecraft.recipe.Ingredient;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.registry.tag.ItemTags;
-import net.minecraft.util.Identifier;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
     public ModRecipeProvider(FabricDataOutput output) {
@@ -82,6 +81,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         RecipeCategory.COMBAT, ModItems.NETHERITE_KHOPESH)
                 .criterion(FabricRecipeProvider.hasItem(Items.NETHERITE_INGOT),
                         FabricRecipeProvider.conditionsFromItem(Items.NETHERITE_INGOT))
-                .offerTo(exporter, new Identifier(FabricRecipeProvider.getRecipeName(ModItems.NETHERITE_KHOPESH)));
+                .offerTo(exporter, "desolated_dungeons:netherite_khopesh");
     }
 }

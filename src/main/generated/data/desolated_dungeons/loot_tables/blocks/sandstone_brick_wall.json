@@ -11,11 +11,10 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "desolated_dungeons:sandstone_bricks"
+          "name": "desolated_dungeons:sandstone_brick_wall"
         }
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "desolated_dungeons:blocks/sandstone_bricks"
+  ]
 }

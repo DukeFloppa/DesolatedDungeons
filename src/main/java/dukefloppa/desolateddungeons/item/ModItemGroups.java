@@ -31,6 +31,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SALMON_WOOL);
                         entries.add(ModBlocks.ALIEN_DIRT);
                         entries.add(ModBlocks.SANDSTONE_BRICKS);
+                        entries.add(ModBlocks.SANDSTONE_BRICK_STAIRS);
+                        entries.add(ModBlocks.SANDSTONE_BRICK_SLAB);
+                        entries.add(ModBlocks.SANDSTONE_BRICK_WALL);
                     }))
                     .build());
 

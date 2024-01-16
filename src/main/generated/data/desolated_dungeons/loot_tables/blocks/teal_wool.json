@@ -11,11 +11,10 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "desolated_dungeons:salmon_wool"
+          "name": "desolated_dungeons:teal_wool"
         }
       ],
       "rolls": 1.0
     }
-  ],
-  "random_sequence": "desolated_dungeons:blocks/salmon_wool"
+  ]
 }
