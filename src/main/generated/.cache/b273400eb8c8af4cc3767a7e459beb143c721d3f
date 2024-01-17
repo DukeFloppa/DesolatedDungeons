@@ -1,4 +1,4 @@
-// 1.20.4	2024-01-16T18:32:28.7438746	Desolated Dungeons/Model Definitions
+// 1.20.4	2024-01-17T20:38:50.0149736	Desolated Dungeons/Model Definitions
 5c8e634a7df013f6e441aa462ef6ef5b5106b517 assets\desolated_dungeons\models\item\wooden_khopesh.json
 746921fe12e76f48618912c0642682eadb92729b assets\desolated_dungeons\models\item\sandstone_brick_wall.json
 ff063bdf2cd18ffe4d8b51c24827199f620a4683 assets\desolated_dungeons\blockstates\teal_wool.json
@@ -30,8 +30,8 @@ d41bcb49c6ec9677606be5ca946825ed5117fc06 assets\desolated_dungeons\blockstates\s
 08a1adfa811aa6ed73fc6f20aa39bc07d51f1f9b assets\desolated_dungeons\models\block\salmon_wool.json
 405f0c4e253d8421ce0187dfdd66e4f24dd81bef assets\desolated_dungeons\models\block\sandstone_brick_wall_side_tall.json
 01d2626934db734b9cac2e0f572618f756ac36fe assets\desolated_dungeons\models\block\sandstone_brick_slab_top.json
-743115e8e3563b0cff1b8ca1f91ef61f83a93d83 assets\desolated_dungeons\models\item\alien_dirt.json
 70015a77a4d452fc8d4bdec9d1da6d4d74933d63 assets\desolated_dungeons\models\block\sandstone_brick_wall_post.json
+743115e8e3563b0cff1b8ca1f91ef61f83a93d83 assets\desolated_dungeons\models\item\alien_dirt.json
 68fa07b6f79f2de99336036e14b45d820dd7301a assets\desolated_dungeons\models\item\netherite_khopesh.json
 6c75c18085614cd7089318731fc166efefd54e9e assets\desolated_dungeons\models\block\alien_dirt.json
 b0da9d3986a27743110d4ec841f81fa9e39cdb85 assets\desolated_dungeons\models\block\sandstone_brick_stairs_inner.json
