@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "desolated_dungeons:laterite",
     "desolated_dungeons:alien_dirt"
   ]
 }

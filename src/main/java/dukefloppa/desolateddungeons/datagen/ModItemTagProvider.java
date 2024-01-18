@@ -16,13 +16,16 @@ public class ModItemTagProvider extends FabricTagProvider.ItemTagProvider {
     @Override
     protected void configure(RegistryWrapper.WrapperLookup arg) {
         getOrCreateTagBuilder(ItemTags.STAIRS)
-                .add(ModBlocks.SANDSTONE_BRICK_STAIRS.asItem());
+                .add(ModBlocks.SANDSTONE_BRICK_STAIRS.asItem())
+                .add(ModBlocks.LATERITE_BRICK_STAIRS.asItem());
 
         getOrCreateTagBuilder(ItemTags.SLABS)
-                .add(ModBlocks.SANDSTONE_BRICK_SLAB.asItem());
+                .add(ModBlocks.SANDSTONE_BRICK_SLAB.asItem())
+                .add(ModBlocks.LATERITE_BRICK_SLAB.asItem());
 
         getOrCreateTagBuilder(ItemTags.WALLS)
-                .add(ModBlocks.SANDSTONE_BRICK_WALL.asItem());
+                .add(ModBlocks.SANDSTONE_BRICK_WALL.asItem())
+                .add(ModBlocks.LATERITE_BRICK_WALL.asItem());
 
         getOrCreateTagBuilder(ItemTags.WOOL)
                 .add(ModBlocks.TEAL_WOOL.asItem())

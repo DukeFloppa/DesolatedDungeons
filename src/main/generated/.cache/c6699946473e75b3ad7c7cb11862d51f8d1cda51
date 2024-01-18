@@ -1,8 +1,9 @@
-// 1.20.4	2024-01-17T20:38:50.0199745	Desolated Dungeons/Tags for minecraft:block
-6eb7d78415638a56ac128d508ce3e595fed9b3ba data\minecraft\tags\blocks\slabs.json
-d14f2b2999e14881f23f450a71ed2e169f5c81ab data\minecraft\tags\blocks\walls.json
-dc46eca4d60098736d35ae3f3a7f55ca279302d1 data\minecraft\tags\blocks\mineable\pickaxe.json
+// 1.20.4	2024-01-18T15:17:14.7110161	Desolated Dungeons/Tags for minecraft:block
+a53f5ec5cba4aaa196dc9c95b0ac363a63d4cabf data\minecraft\tags\blocks\walls.json
+5daa5c02ce5237d84076b0c92d15c64e0c667b19 data\minecraft\tags\blocks\slabs.json
+caaeb447781e9ab75667ded8a9e31dfa9f5c101b data\minecraft\tags\blocks\mineable\pickaxe.json
 fdb7e5073e0636069a0cb0e27650c5a6d037391a data\minecraft\tags\blocks\wool.json
-aae613f43d913a91502174998d04aca492f2c2ea data\minecraft\tags\blocks\stairs.json
-29cf22811893a00f862c667b2f28c1b8acecdde3 data\minecraft\tags\blocks\mineable\shovel.json
+de1828a476e6987e4b600649a4bd053e9eca15e2 data\minecraft\tags\blocks\stairs.json
+37674b85c5470573b6dbd2702fa33006d7592e73 data\minecraft\tags\blocks\mineable\shovel.json
 29cf22811893a00f862c667b2f28c1b8acecdde3 data\minecraft\tags\blocks\dirt.json
+caaeb447781e9ab75667ded8a9e31dfa9f5c101b data\fabric\tags\blocks\needs_tool_level_0.json

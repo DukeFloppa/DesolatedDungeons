@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "desolated_dungeons:block/laterite_brick_slab"
+    },
+    "type=double": {
+      "model": "desolated_dungeons:block/laterite_bricks"
+    },
+    "type=top": {
+      "model": "desolated_dungeons:block/laterite_brick_slab_top"
+    }
+  }
+}

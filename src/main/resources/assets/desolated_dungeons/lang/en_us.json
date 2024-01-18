@@ -22,5 +22,10 @@
   "block.desolated_dungeons.sandstone_bricks": "Sandstone Bricks",
   "block.desolated_dungeons.sandstone_brick_stairs": "Sandstone Brick Stairs",
   "block.desolated_dungeons.sandstone_brick_slab": "Sandstone Brick Slab",
-  "block.desolated_dungeons.sandstone_brick_wall": "Sandstone Brick Wall"
+  "block.desolated_dungeons.sandstone_brick_wall": "Sandstone Brick Wall",
+  "block.desolated_dungeons.laterite": "Laterite",
+  "block.desolated_dungeons.laterite_bricks": "Laterite Bricks",
+  "block.desolated_dungeons.laterite_brick_stairs": "Laterite Brick Stairs",
+  "block.desolated_dungeons.laterite_brick_slab": "Laterite Brick Slab",
+  "block.desolated_dungeons.laterite_brick_wall": "Laterite Brick Wall"
 }

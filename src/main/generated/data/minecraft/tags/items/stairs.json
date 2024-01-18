@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "desolated_dungeons:sandstone_brick_stairs"
+    "desolated_dungeons:sandstone_brick_stairs",
+    "desolated_dungeons:laterite_brick_stairs"
   ]
 }

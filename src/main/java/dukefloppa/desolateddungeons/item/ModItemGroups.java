@@ -34,6 +34,11 @@ public class ModItemGroups {
                         entries.add(ModBlocks.SANDSTONE_BRICK_STAIRS);
                         entries.add(ModBlocks.SANDSTONE_BRICK_SLAB);
                         entries.add(ModBlocks.SANDSTONE_BRICK_WALL);
+                        entries.add(ModBlocks.LATERITE);
+                        entries.add(ModBlocks.LATERITE_BRICKS);
+                        entries.add(ModBlocks.LATERITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.LATERITE_BRICK_SLAB);
+                        entries.add(ModBlocks.LATERITE_BRICK_WALL);
                     }))
                     .build());
 

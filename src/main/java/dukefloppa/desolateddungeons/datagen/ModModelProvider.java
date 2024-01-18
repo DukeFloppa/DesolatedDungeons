@@ -19,11 +19,16 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TEAL_WOOL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.SALMON_WOOL);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALIEN_DIRT);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LATERITE);
         BlockStateModelGenerator.BlockTexturePool sandstoneBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool lateriteBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LATERITE_BRICKS);
 
         sandstoneBricksPool.stairs(ModBlocks.SANDSTONE_BRICK_STAIRS);
         sandstoneBricksPool.slab(ModBlocks.SANDSTONE_BRICK_SLAB);
         sandstoneBricksPool.wall(ModBlocks.SANDSTONE_BRICK_WALL);
+        lateriteBricksPool.stairs(ModBlocks.LATERITE_BRICK_STAIRS);
+        lateriteBricksPool.slab(ModBlocks.LATERITE_BRICK_SLAB);
+        lateriteBricksPool.wall(ModBlocks.LATERITE_BRICK_WALL);
     }
 
     @Override
