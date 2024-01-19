@@ -40,6 +40,10 @@ public class ModBlocks {
             new SlabBlock(FabricBlockSettings.copyOf(Blocks.MUD_BRICKS).sounds(BlockSoundGroup.STONE)));
     public static final Block LATERITE_BRICK_WALL = registerBlock("laterite_brick_wall",
             new WallBlock(FabricBlockSettings.copyOf(Blocks.MUD_BRICKS).sounds(BlockSoundGroup.STONE)));
+    public static final Block LIMESTONE = registerBlock("limestone",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANDESITE)));
+    public static final Block PERIDOTITE = registerBlock("peridotite",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANDESITE)));
 
     public static void registerModBlocks() {
         DesolatedDungeons.LOGGER.info("Registering Mod Blocks for " + DesolatedDungeons.MOD_ID);

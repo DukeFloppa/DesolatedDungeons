@@ -2,7 +2,7 @@
   "advancements.desolated_dungeons.root.title": "Root Title",
   "advancements.desolated_dungeons.root.description": "Root Description",
   "advancements.desolated_dungeons.sandswept_ruins.title": "Sandswept Ruins",
-  "advancements.desolated_dungeons.sandswept_ruins.description": "Discover the sandswept ruins in the desert",
+  "advancements.desolated_dungeons.sandswept_ruins.description": "Discover the Sandswept Ruins in the desert",
 
   "itemGroup.desolated_dungeons": "Desolated Dungeons",
 
@@ -27,5 +27,7 @@
   "block.desolated_dungeons.laterite_bricks": "Laterite Bricks",
   "block.desolated_dungeons.laterite_brick_stairs": "Laterite Brick Stairs",
   "block.desolated_dungeons.laterite_brick_slab": "Laterite Brick Slab",
-  "block.desolated_dungeons.laterite_brick_wall": "Laterite Brick Wall"
+  "block.desolated_dungeons.laterite_brick_wall": "Laterite Brick Wall",
+  "block.desolated_dungeons.limestone": "Limestone",
+  "block.desolated_dungeons.peridotite": "Peridotite"
 }

@@ -26,7 +26,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LATERITE_BRICKS)
                 .add(ModBlocks.LATERITE_BRICK_STAIRS)
                 .add(ModBlocks.LATERITE_BRICK_SLAB)
-                .add(ModBlocks.LATERITE_BRICK_WALL);
+                .add(ModBlocks.LATERITE_BRICK_WALL)
+                .add(ModBlocks.LIMESTONE)
+                .add(ModBlocks.PERIDOTITE);
+
 
         getOrCreateTagBuilder(BlockTags.SHOVEL_MINEABLE)
                 .add(ModBlocks.LATERITE)
@@ -41,7 +44,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LATERITE_BRICKS)
                 .add(ModBlocks.LATERITE_BRICK_STAIRS)
                 .add(ModBlocks.LATERITE_BRICK_SLAB)
-                .add(ModBlocks.LATERITE_BRICK_WALL);
+                .add(ModBlocks.LATERITE_BRICK_WALL)
+                .add(ModBlocks.LIMESTONE)
+                .add(ModBlocks.PERIDOTITE);
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.SANDSTONE_BRICK_STAIRS)
