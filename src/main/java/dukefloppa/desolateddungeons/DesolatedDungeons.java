@@ -3,6 +3,7 @@ package dukefloppa.desolateddungeons;
 import dukefloppa.desolateddungeons.block.ModBlocks;
 import dukefloppa.desolateddungeons.item.ModItems;
 import dukefloppa.desolateddungeons.item.ModItemGroups;
+import dukefloppa.desolateddungeons.world.gen.ModWorldGeneration;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -17,7 +18,10 @@ public class DesolatedDungeons implements ModInitializer {
 		LOGGER.info("Initializing Desolated Dungeons mod :3");
 
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModWorldGeneration.generateModWorldGen();
 	}
 }

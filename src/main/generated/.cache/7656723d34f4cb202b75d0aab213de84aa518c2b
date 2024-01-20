@@ -1,0 +1,4 @@
+// 1.20.4	2024-01-20T23:06:10.1673947	Desolated Dungeons/World Gen
+b4ec72c8730f546ee0ebb2630aa8bd910a17c303 data\desolated_dungeons\worldgen\configured_feature\ore_peridotite.json
+7d103e33094d639de0aaecab23bd1fa88a9737e2 data\desolated_dungeons\worldgen\placed_feature\ore_peridotite_lower_placed.json
+d8c41f0b5f8ffddc6c6482161077547d533170b3 data\desolated_dungeons\worldgen\placed_feature\ore_peridotite_upper_placed.json
