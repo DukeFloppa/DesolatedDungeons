@@ -60,6 +60,14 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.SANDSTONE_BRICK_WALL)
                 .add(ModBlocks.LATERITE_BRICK_WALL);
 
+        getOrCreateTagBuilder(BlockTags.BASE_STONE_OVERWORLD)
+                .add(ModBlocks.LIMESTONE)
+                .add(ModBlocks.PERIDOTITE);
+
+        getOrCreateTagBuilder(BlockTags.STONE_ORE_REPLACEABLES)
+                .add(ModBlocks.LIMESTONE)
+                .add(ModBlocks.PERIDOTITE);
+
         getOrCreateTagBuilder(BlockTags.DIRT)
                 .add(ModBlocks.ALIEN_DIRT);
 
