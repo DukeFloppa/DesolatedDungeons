@@ -15,13 +15,32 @@ public class ModItemGroups {
             new Identifier(DesolatedDungeons.MOD_ID, "desolated_dungeons"),
             FabricItemGroup.builder()
                     .displayName(Text.translatable("itemGroup.desolated_dungeons"))
-                    .icon(() -> new ItemStack(ModItems.SCARAB_BEETLE))
+                    .icon(() -> new ItemStack(ModItems.ANKH_TOTEM))
                     .entries(((displayContext, entries) -> {
                         entries.add(ModItems.SCARAB_BEETLE);
+                        entries.add(ModItems.ANKH_TOTEM);
+                        entries.add(ModItems.KHOPESH_HANDLE);
+                        entries.add(ModItems.WOODEN_KHOPESH);
+                        entries.add(ModItems.STONE_KHOPESH);
+                        entries.add(ModItems.IRON_KHOPESH);
+                        entries.add(ModItems.GOLDEN_KHOPESH);
+                        entries.add(ModItems.DIAMOND_KHOPESH);
+                        entries.add(ModItems.NETHERITE_KHOPESH);
 
                         entries.add(ModBlocks.TEAL_WOOL);
                         entries.add(ModBlocks.SALMON_WOOL);
                         entries.add(ModBlocks.ALIEN_DIRT);
+                        entries.add(ModBlocks.SANDSTONE_BRICKS);
+                        entries.add(ModBlocks.SANDSTONE_BRICK_STAIRS);
+                        entries.add(ModBlocks.SANDSTONE_BRICK_SLAB);
+                        entries.add(ModBlocks.SANDSTONE_BRICK_WALL);
+                        entries.add(ModBlocks.LATERITE);
+                        entries.add(ModBlocks.LATERITE_BRICKS);
+                        entries.add(ModBlocks.LATERITE_BRICK_STAIRS);
+                        entries.add(ModBlocks.LATERITE_BRICK_SLAB);
+                        entries.add(ModBlocks.LATERITE_BRICK_WALL);
+                        entries.add(ModBlocks.LIMESTONE);
+                        entries.add(ModBlocks.PERIDOTITE);
                     }))
                     .build());
 

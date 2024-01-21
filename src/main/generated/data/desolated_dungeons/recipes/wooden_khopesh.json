@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "h": {
+      "item": "minecraft:stick"
+    },
+    "m": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "pattern": [
+    "  m",
+    " mm",
+    "h  "
+  ],
+  "result": {
+    "item": "desolated_dungeons:wooden_khopesh"
+  }
+}

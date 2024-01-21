@@ -1,7 +1,6 @@
 package dukefloppa.desolateddungeons.datagen;
 
 import dukefloppa.desolateddungeons.DesolatedDungeons;
-import dukefloppa.desolateddungeons.block.ModBlocks;
 import dukefloppa.desolateddungeons.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricAdvancementProvider;
@@ -28,7 +27,7 @@ public class ModAdvancementProvider extends FabricAdvancementProvider {
     public void generateAdvancement(Consumer<AdvancementEntry> consumer) {
         AdvancementEntry rootAdvancement = Advancement.Builder.create()
                 .display(
-                        ModBlocks.SALMON_WOOL,
+                        ModItems.ANKH_TOTEM,
                         Text.translatable("advancements.desolated_dungeons.root.title"),
                         Text.translatable("advancements.desolated_dungeons.root.description"),
                         new Identifier("textures/block/sand.png"),
