@@ -1,6 +1,8 @@
-// 1.20.4	2024-01-21T19:38:55.7791265	Desolated Dungeons/World Gen
+// 1.20.4	2024-01-24T13:32:32.1357083	Desolated Dungeons/World Gen
 d8c41f0b5f8ffddc6c6482161077547d533170b3 data\desolated_dungeons\worldgen\placed_feature\ore_peridotite_upper.json
 04ba8a8172b56333d734185cb676d106d8dd85ab data\desolated_dungeons\worldgen\configured_feature\ore_laterite.json
 f2a182effac223b3bb7bd4cbaec7b6eea4b0e1ad data\desolated_dungeons\worldgen\placed_feature\ore_peridotite_lower.json
 b4ec72c8730f546ee0ebb2630aa8bd910a17c303 data\desolated_dungeons\worldgen\configured_feature\ore_peridotite.json
-811e056d4227d58b8a5205267e044ec0284f5ce3 data\desolated_dungeons\worldgen\placed_feature\ore_laterite.json
+8317ec0a1e43f7f09bfe6e23d7dc8e69b007e544 data\desolated_dungeons\worldgen\placed_feature\ore_laterite.json
+a7cab2465e18916028c37c05704f78c1d28dc8b0 data\desolated_dungeons\worldgen\configured_feature\ore_limestone.json
+4e82846a4142f83e0fd820babecaa56c2f7e412e data\desolated_dungeons\worldgen\placed_feature\ore_limestone.json

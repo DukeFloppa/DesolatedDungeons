@@ -17,6 +17,7 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> ORE_PERIDOTITE = registerKey("ore_peridotite");
     public static final RegistryKey<ConfiguredFeature<?, ?>> ORE_LATERITE = registerKey("ore_laterite");
+    public static final RegistryKey<ConfiguredFeature<?, ?>> ORE_LIMESTONE = registerKey("ore_limestone");
 
     public static void bootstrap(Registerable<ConfiguredFeature<?, ?>> featureRegisterable) {
         RuleTest baseStoneOverworld = new TagMatchRuleTest(BlockTags.BASE_STONE_OVERWORLD);
@@ -26,6 +27,9 @@ public class ModConfiguredFeatures {
 
         register(featureRegisterable, ORE_LATERITE, Feature.ORE,
                 new OreFeatureConfig(baseStoneOverworld, ModBlocks.LATERITE.getDefaultState(), 64));
+
+        register(featureRegisterable, ORE_LIMESTONE, Feature.ORE,
+                new OreFeatureConfig(baseStoneOverworld, ModBlocks.LIMESTONE.getDefaultState(), 64));
     }
 
     public static RegistryKey<ConfiguredFeature<?, ?>> registerKey(String name) {
