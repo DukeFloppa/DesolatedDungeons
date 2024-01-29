@@ -1,12 +1,12 @@
 package dukefloppa.desolateddungeons.world;
 
 import dukefloppa.desolateddungeons.DesolatedDungeons;
+import dukefloppa.desolateddungeons.world.gen.placementmodifier.ModDESPlacementModifier;
 import net.minecraft.registry.Registerable;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.math.Direction;
 import net.minecraft.world.Heightmap;
 import net.minecraft.world.gen.YOffset;
 import net.minecraft.world.gen.blockpredicate.BlockPredicate;
@@ -42,7 +42,7 @@ public class ModPlacedFeatures {
                         SquarePlacementModifier.of(),
                         HeightRangePlacementModifier.uniform(YOffset.fixed(64), YOffset.fixed(192)),
                         BiomePlacementModifier.of(),
-                        EnvironmentScanPlacementModifier.of(Direction.getFacing(1f, 1f, 1f), BlockPredicate.IS_AIR, 1)));
+                        ModDESPlacementModifier.of(BlockPredicate.IS_AIR, 1)));
     }
 
     public static RegistryKey<PlacedFeature> registerKey(String name) {
