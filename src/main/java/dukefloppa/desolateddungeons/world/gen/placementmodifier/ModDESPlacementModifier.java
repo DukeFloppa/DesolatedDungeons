@@ -30,6 +30,8 @@ public class ModDESPlacementModifier extends PlacementModifier {
         Codec.intRange(1, 3).fieldOf("max_taxicab_distance")
             .forGetter(modDESPlacementModifier -> modDESPlacementModifier.maxTaxicabDistance))
      .apply(instance, ModDESPlacementModifier::new));
+    public static final PlacementModifierType<ModDESPlacementModifier> MOD_DES =
+            register("mod_des", ModDESPlacementModifier.MODIFIER_CODEC);
 
     private ModDESPlacementModifier(BlockPredicate targetPredicate, BlockPredicate allowedSearchPredicate, int maxTaxicabDistance) {
         this.targetPredicate = targetPredicate;
@@ -95,7 +97,7 @@ public class ModDESPlacementModifier extends PlacementModifier {
 
     @Override
     public PlacementModifierType<?> getType() {
-        return register("mod_des", MODIFIER_CODEC);
+        return MOD_DES;
     }
 
     private static <P extends PlacementModifier> PlacementModifierType<P> register(String id, Codec<P> codec) {
