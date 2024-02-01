@@ -1,5 +1,6 @@
 package dukefloppa.desolateddungeons.datagen;
 
+import dukefloppa.desolateddungeons.block.ModBlocks;
 import dukefloppa.desolateddungeons.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
@@ -15,9 +16,16 @@ public class ModRecipeProvider extends FabricRecipeProvider {
     public ModRecipeProvider(FabricDataOutput output) {
         super(output);
     }
+    public RecipeExporter exporter;
 
     @Override
     public void generate(RecipeExporter exporter) {
+        this.exporter = exporter;
+        generateCombat();
+        generateBuildingBlocks();
+    }
+
+    public void generateCombat() {
         ShapedRecipeJsonBuilder.create(RecipeCategory.COMBAT, ModItems.KHOPESH_HANDLE)
                 .pattern(" g")
                 .pattern("g ")
@@ -82,5 +90,47 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(FabricRecipeProvider.hasItem(Items.NETHERITE_INGOT),
                         FabricRecipeProvider.conditionsFromItem(Items.NETHERITE_INGOT))
                 .offerTo(exporter, "desolated_dungeons:netherite_khopesh");
+    }
+
+    public void generateBuildingBlocks() {
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LATERITE_BRICKS, 4)
+                .pattern("xx")
+                .pattern("xx")
+                .input('x', ModBlocks.LATERITE)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.LATERITE),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.LATERITE))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LATERITE_BRICK_STAIRS, 4)
+                .pattern("x  ")
+                .pattern("xx ")
+                .pattern("xxx")
+                .input('x', ModBlocks.LATERITE_BRICKS)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.LATERITE_BRICKS),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.LATERITE_BRICKS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LATERITE_BRICK_SLAB, 6)
+                .pattern("xxx")
+                .input('x', ModBlocks.LATERITE_BRICKS)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.LATERITE_BRICKS),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.LATERITE_BRICKS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.LATERITE_BRICK_WALL, 6)
+                .pattern("xxx")
+                .pattern("xxx")
+                .input('x', ModBlocks.LATERITE_BRICKS)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.LATERITE_BRICKS),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.LATERITE_BRICKS))
+                .offerTo(exporter);
+
+        ShapedRecipeJsonBuilder.create(RecipeCategory.BUILDING_BLOCKS, ModBlocks.POLISHED_LIMESTONE, 4)
+                .pattern("xx")
+                .pattern("xx")
+                .input('x', ModBlocks.LIMESTONE)
+                .criterion(FabricRecipeProvider.hasItem(ModBlocks.LIMESTONE),
+                        FabricRecipeProvider.conditionsFromItem(ModBlocks.LIMESTONE))
+                .offerTo(exporter);
     }
 }

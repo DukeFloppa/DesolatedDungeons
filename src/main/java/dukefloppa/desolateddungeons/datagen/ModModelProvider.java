@@ -21,6 +21,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALIEN_DIRT);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LATERITE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIMESTONE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_LIMESTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PERIDOTITE);
         BlockStateModelGenerator.BlockTexturePool sandstoneBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool lateriteBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LATERITE_BRICKS);

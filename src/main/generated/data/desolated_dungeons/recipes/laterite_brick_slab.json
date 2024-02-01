@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "x": {
+      "item": "desolated_dungeons:laterite_bricks"
+    }
+  },
+  "pattern": [
+    "xxx"
+  ],
+  "result": {
+    "count": 6,
+    "item": "desolated_dungeons:laterite_brick_slab"
+  }
+}
