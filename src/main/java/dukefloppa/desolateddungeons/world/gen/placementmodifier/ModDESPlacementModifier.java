@@ -2,8 +2,6 @@ package dukefloppa.desolateddungeons.world.gen.placementmodifier;
 
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
-import net.minecraft.registry.Registries;
-import net.minecraft.registry.Registry;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.world.StructureWorldAccess;
@@ -30,8 +28,6 @@ public class ModDESPlacementModifier extends PlacementModifier {
         Codec.intRange(1, 3).fieldOf("max_taxicab_distance")
             .forGetter(modDESPlacementModifier -> modDESPlacementModifier.maxTaxicabDistance))
      .apply(instance, ModDESPlacementModifier::new));
-    public static final PlacementModifierType<ModDESPlacementModifier> MOD_DES =
-            register("mod_des", ModDESPlacementModifier.MODIFIER_CODEC);
 
     private ModDESPlacementModifier(BlockPredicate targetPredicate, BlockPredicate allowedSearchPredicate, int maxTaxicabDistance) {
         this.targetPredicate = targetPredicate;
@@ -39,12 +35,12 @@ public class ModDESPlacementModifier extends PlacementModifier {
         this.maxTaxicabDistance = maxTaxicabDistance;
     }
 
-    public static ModDESPlacementModifier of(BlockPredicate targetPredicate, BlockPredicate allowedSearchPredicate, int maxSteps) {
-        return new ModDESPlacementModifier(targetPredicate, allowedSearchPredicate, maxSteps);
+    public static ModDESPlacementModifier of(BlockPredicate targetPredicate, BlockPredicate allowedSearchPredicate, int maxTaxicabDistance) {
+        return new ModDESPlacementModifier(targetPredicate, allowedSearchPredicate, maxTaxicabDistance);
     }
 
-    public static ModDESPlacementModifier of(BlockPredicate targetPredicate, int maxSteps) {
-        return ModDESPlacementModifier.of(targetPredicate, BlockPredicate.alwaysTrue(), maxSteps);
+    public static ModDESPlacementModifier of(BlockPredicate targetPredicate, int maxTaxicabDistance) {
+        return ModDESPlacementModifier.of(targetPredicate, BlockPredicate.alwaysTrue(), maxTaxicabDistance);
     }
 
     @Override
@@ -97,10 +93,6 @@ public class ModDESPlacementModifier extends PlacementModifier {
 
     @Override
     public PlacementModifierType<?> getType() {
-        return MOD_DES;
-    }
-
-    private static <P extends PlacementModifier> PlacementModifierType<P> register(String id, Codec<P> codec) {
-        return Registry.register(Registries.PLACEMENT_MODIFIER_TYPE, id, () -> codec);
+        return ModPlacementModifierType.MOD_DES;
     }
 }
