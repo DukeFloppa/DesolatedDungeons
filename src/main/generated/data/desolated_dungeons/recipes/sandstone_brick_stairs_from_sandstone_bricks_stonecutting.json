@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "desolated_dungeons:sandstone_bricks"
+  },
+  "result": "desolated_dungeons:sandstone_brick_stairs"
+}

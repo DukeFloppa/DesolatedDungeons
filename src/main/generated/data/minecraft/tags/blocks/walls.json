@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "desolated_dungeons:sandstone_brick_wall",
-    "desolated_dungeons:laterite_brick_wall"
+    "desolated_dungeons:laterite_brick_wall",
+    "desolated_dungeons:polished_limestone_wall"
   ]
 }

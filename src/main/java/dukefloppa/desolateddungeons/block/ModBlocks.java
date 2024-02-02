@@ -41,6 +41,12 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.ANDESITE)));
     public static final Block POLISHED_LIMESTONE = registerBlock("polished_limestone",
             new Block(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
+    public static final Block POLISHED_LIMESTONE_STAIRS = registerBlock("polished_limestone_stairs",
+            new StairsBlock(ModBlocks.POLISHED_LIMESTONE.getDefaultState(), FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
+    public static final Block POLISHED_LIMESTONE_SLAB = registerBlock("polished_limestone_slab",
+            new SlabBlock(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
+    public static final Block POLISHED_LIMESTONE_WALL = registerBlock("polished_limestone_wall",
+            new WallBlock(FabricBlockSettings.copyOf(Blocks.POLISHED_ANDESITE)));
     public static final Block PERIDOTITE = registerBlock("peridotite",
             new Block(FabricBlockSettings.copyOf(Blocks.ANDESITE)));
 

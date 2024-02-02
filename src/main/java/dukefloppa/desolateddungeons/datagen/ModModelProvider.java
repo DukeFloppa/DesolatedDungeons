@@ -13,7 +13,6 @@ public class ModModelProvider extends FabricModelProvider {
         super(output);
     }
 
-    // Doesn't generate an item model for blocks, for now manually add those
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.TEAL_WOOL);
@@ -21,10 +20,10 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ALIEN_DIRT);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LATERITE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.LIMESTONE);
-        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.POLISHED_LIMESTONE);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.PERIDOTITE);
         BlockStateModelGenerator.BlockTexturePool sandstoneBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.SANDSTONE_BRICKS);
         BlockStateModelGenerator.BlockTexturePool lateriteBricksPool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.LATERITE_BRICKS);
+        BlockStateModelGenerator.BlockTexturePool polishedLimestonePool = blockStateModelGenerator.registerCubeAllModelTexturePool(ModBlocks.POLISHED_LIMESTONE);
 
         sandstoneBricksPool.stairs(ModBlocks.SANDSTONE_BRICK_STAIRS);
         sandstoneBricksPool.slab(ModBlocks.SANDSTONE_BRICK_SLAB);
@@ -32,6 +31,9 @@ public class ModModelProvider extends FabricModelProvider {
         lateriteBricksPool.stairs(ModBlocks.LATERITE_BRICK_STAIRS);
         lateriteBricksPool.slab(ModBlocks.LATERITE_BRICK_SLAB);
         lateriteBricksPool.wall(ModBlocks.LATERITE_BRICK_WALL);
+        polishedLimestonePool.stairs(ModBlocks.POLISHED_LIMESTONE_STAIRS);
+        polishedLimestonePool.slab(ModBlocks.POLISHED_LIMESTONE_SLAB);
+        polishedLimestonePool.wall(ModBlocks.POLISHED_LIMESTONE_WALL);
     }
 
     @Override

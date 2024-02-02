@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "desolated_dungeons:block/polished_limestone",
+    "side": "desolated_dungeons:block/polished_limestone",
+    "top": "desolated_dungeons:block/polished_limestone"
+  }
+}

@@ -41,6 +41,9 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LATERITE_BRICK_WALL);
                         entries.add(ModBlocks.LIMESTONE);
                         entries.add(ModBlocks.POLISHED_LIMESTONE);
+                        entries.add(ModBlocks.POLISHED_LIMESTONE_STAIRS);
+                        entries.add(ModBlocks.POLISHED_LIMESTONE_SLAB);
+                        entries.add(ModBlocks.POLISHED_LIMESTONE_WALL);
                         entries.add(ModBlocks.PERIDOTITE);
                     }))
                     .build());

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "desolated_dungeons:limestone"
+  },
+  "result": "desolated_dungeons:polished_limestone_slab"
+}

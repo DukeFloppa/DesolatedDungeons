@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "desolated_dungeons:laterite_bricks"
+  },
+  "result": "desolated_dungeons:laterite_brick_slab"
+}

@@ -25,6 +25,9 @@ public class ModBlockLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.LATERITE_BRICK_WALL);
         addDrop(ModBlocks.LIMESTONE);
         addDrop(ModBlocks.POLISHED_LIMESTONE);
+        addDrop(ModBlocks.POLISHED_LIMESTONE_STAIRS);
+        addDrop(ModBlocks.POLISHED_LIMESTONE_SLAB);
+        addDrop(ModBlocks.POLISHED_LIMESTONE_WALL);
         addDrop(ModBlocks.PERIDOTITE);
     }
 }

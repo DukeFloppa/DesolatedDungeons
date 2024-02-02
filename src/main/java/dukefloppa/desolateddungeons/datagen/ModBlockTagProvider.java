@@ -29,6 +29,9 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LATERITE_BRICK_WALL)
                 .add(ModBlocks.LIMESTONE)
                 .add(ModBlocks.POLISHED_LIMESTONE)
+                .add(ModBlocks.POLISHED_LIMESTONE_STAIRS)
+                .add(ModBlocks.POLISHED_LIMESTONE_SLAB)
+                .add(ModBlocks.POLISHED_LIMESTONE_WALL)
                 .add(ModBlocks.PERIDOTITE);
 
 
@@ -48,19 +51,25 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LATERITE_BRICK_WALL)
                 .add(ModBlocks.LIMESTONE)
                 .add(ModBlocks.POLISHED_LIMESTONE)
+                .add(ModBlocks.POLISHED_LIMESTONE_STAIRS)
+                .add(ModBlocks.POLISHED_LIMESTONE_SLAB)
+                .add(ModBlocks.POLISHED_LIMESTONE_WALL)
                 .add(ModBlocks.PERIDOTITE);
 
         getOrCreateTagBuilder(BlockTags.STAIRS)
                 .add(ModBlocks.SANDSTONE_BRICK_STAIRS)
-                .add(ModBlocks.LATERITE_BRICK_STAIRS);
+                .add(ModBlocks.LATERITE_BRICK_STAIRS)
+                .add(ModBlocks.POLISHED_LIMESTONE_STAIRS);
 
         getOrCreateTagBuilder(BlockTags.SLABS)
                 .add(ModBlocks.SANDSTONE_BRICK_SLAB)
-                .add(ModBlocks.LATERITE_BRICK_SLAB);
+                .add(ModBlocks.LATERITE_BRICK_SLAB)
+                .add(ModBlocks.POLISHED_LIMESTONE_SLAB);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.SANDSTONE_BRICK_WALL)
-                .add(ModBlocks.LATERITE_BRICK_WALL);
+                .add(ModBlocks.LATERITE_BRICK_WALL)
+                .add(ModBlocks.POLISHED_LIMESTONE_WALL);
 
         getOrCreateTagBuilder(BlockTags.BASE_STONE_OVERWORLD)
                 .add(ModBlocks.LIMESTONE)
